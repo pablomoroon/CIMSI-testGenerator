@@ -122,7 +122,8 @@
     (function(){
       const isPages = location.hostname.endsWith('github.io');
       const repoSegment = isPages ? location.pathname.split('/').filter(Boolean)[0] : '';
-      window.JSON_URL = `${location.origin}/${repoSegment ? repoSegment + '/' : ''}preguntas_estudio.json`;
+      // Ajusta la ruta para entrar a la carpeta Preguntas_CIMSI
+      window.JSON_URL = `${location.origin}/${repoSegment ? repoSegment + '/' : ''}Preguntas_CIMSI/preguntas_estudio.json`;
     })();
 
     // ========= Carga automática desde Pages =========
