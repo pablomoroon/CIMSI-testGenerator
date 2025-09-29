@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tester ITIL/Cloud - Estudio y Examen</title>
+  <style>
+    :root {
+      --accent:#2563eb; --success:#16a34a; --danger:#dc2626; --muted:#6b7280;
+    }
+    html,body {
+      height:100%; margin:0;
+      font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif;
+      background:#0f172a; color:#e6eef8;
+    }
+    .app {
+      display:grid; grid-template-columns:1fr 320px;
+      gap:18px; height:100vh; padding:18px;
+    }
+    .card {
+      background:#071029; border-radius:12px; padding:16px;
+      box-shadow:0 6px 18px rgba(2,6,23,0.6);
+    }
+    header {
+      display:flex; flex-wrap:wrap;
+      align-items:center; gap:12px; margin-bottom:12px;
+    }
+    h1 { font-size:18px; margin:0; flex:1 }
+    .controls {
+      display:flex; flex-wrap:wrap; gap:8px; align-items:center;
+    }
+    select {
+      background:#0b1220; border:1px solid #102030;
+      color:inherit; padding:6px 8px; border-radius:6px;
+    }
+    button {
+      background:var(--accent); border:0; padding:8px 10px;
+      border-radius:8px; color:white; cursor:pointer;
+      font-size:14px; white-space:nowrap;
+    }
+    button.ghost {
+      background:transparent; border:1px solid #14243a;
+    }
+    .main { display:flex; flex-direction:column; gap:10px }
+    .enunciado {
+      min-height:120px; white-space:pre-wrap; padding:12px;
+      border-radius:8px;
+      background:linear-gradient(180deg,#081127,#071029);
+      border:1px solid #14243a;
+    }
+    .opts { display:flex; flex-direction:column; gap:6px }
+    .opt {
+      background:#0a1220; padding:10px; border-radius:8px;
+      border:1px solid #122033; cursor:pointer;
+    }
+    .opt.selected { outline:2px solid rgba(37,99,235,0.25); }
+    .opt.correct { background:rgba(22,163,74,0.12); border-color:rgba(22,163,74,0.2) }
+    .opt.wrong { background:rgba(220,38,38,0.12); border-color:rgba(220,38,38,0.2) }
+    .footer {
+      display:flex; justify-content:space-between;
+      align-items:center; gap:8px; flex-wrap:wrap;
+    }
+    .sidebar { display:flex; flex-direction:column; gap:10px }
+    .doubts {
+      height:60vh; overflow:auto; background:#061323;
+      padding:8px; border-radius:8px; border:1px solid #102035;
+    }
+    .progress {
+      height:10px; background:#082033; border-radius:8px; overflow:hidden;
+    }
+    .progress > i {
+      display:block; height:100%;
+      background:linear-gradient(90deg,#0ea5e9,#2563eb);
+    }
+    .modal {
+      position:fixed; left:0; top:0; right:0; bottom:0;
+      background:rgba(2,6,23,0.7);
+      display:flex; align-items:center; justify-content:center;
+      padding:12px;
+    }
+    .modal .card { width:100%; max-width:720px }
+
+    /* 📱 Responsividad */
+    @media(max-width:1200px){
+      .app { grid-template-columns:1fr 260px; }
+    }
+    @media(max-width:900px){
+      .app { grid-template-columns:1fr; height:auto; }
+      .sidebar { order:2 }
+    }
+    @media(max-width:600px){
+      body { font-size:15px }
+      h1 { font-size:16px }
+      button { font-size:13px; padding:6px 8px }
+      .card { padding:12px }
+      .controls { gap:6px }
+      .enunciado { min-height:100px; font-size:14px }
+      .opt { padding:8px; font-size:14px }
+      .footer { flex-direction:column; align-items:flex-start }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="card main">
+      <header>
+        <h1 id="headerTitle">Sin preguntas cargadas</h1>
+        <div class="controls">
+          <label>Tema</label>
+          <select id="temaSelect"><option>Todos</option></select>
+          <button id="prevBtn" class="ghost">⟵ Anterior</button>
+          <button id="nextBtn" class="ghost">Siguiente ⟶</button>
+          <button id="checkBtn" title="Comprobar">Comprobar</button>
+          <button id="doubtBtn" title="Marcar/Demarcar como dudosa">★ Dudosa</button>
+          <button id="examBtn" style="background:#f59e0b">Iniciar Examen (20)</button>
+        </div>
+      </header>
+
+      <div id="enunciado" class="enunciado">Cargue un JSON con preguntas (formato del ejemplo disponible en el proyecto).</div>
+
+      <div class="opts" id="opts"></div>
+
+      <div class="footer">
+        <div>
+          <span id="feedback" style="font-weight:700"></span>
+          <div id="solution" style="margin-top:6px;color:#fca5a5"></div>
+        </div>
+        <div style="width:320px;max-width:100%">
+          <div class="progress" aria-hidden>
+            <i id="progressBar" style="width:0%"></i>
+          </div>
+          <div style="font-size:12px;color:var(--muted);margin-top:6px" id="statusText">Estado</div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="card">
+        <strong>Preguntas Dudosas</strong>
+        <div class="doubts" id="doubtsList">—</div>
+      </div>
+
+      <div class="card">
+        <strong>Progreso</strong>
+        <div style="margin-top:8px"> <span id="progressLabel">0/0</span> </div>
+        <div style="margin-top:8px;font-size:13px;color:var(--muted)">Filtrar por tema</div>
+        <select id="temaFilter" style="width:100%;margin-top:6px"><option>Todos</option></select>
+      </div>
+
+      <div class="card" style="text-align:center">
+        <div style="font-size:12px;color:var(--muted);margin-bottom:8px">Carga automática</div>
+        <button id="tryAuto">Intentar cargar preguntas desde /preguntas_estudio.json</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Modal placeholder -->
+  <div id="modalRoot"></div>
+
+  <script>
+    let allQuestions = [];
+    let questions = [];
+    let index = 0;
+    let modeExam = false;
+    let userAnswers = {}; 
+    let doubts = new Set();
+    let checkedQuestions = new Set();
+
+    const headerTitle = document.getElementById('headerTitle');
+    const enunciado = document.getElementById('enunciado');
+    const opts = document.getElementById('opts');
+    const feedback = document.getElementById('feedback');
+    const solution = document.getElementById('solution');
+    const progressBar = document.getElementById('progressBar');
+    const statusText = document.getElementById('statusText');
+    const doubtsList = document.getElementById('doubtsList');
+    const temaSelect = document.getElementById('temaSelect');
+    const temaFilter = document.getElementById('temaFilter');
+
+    function setStatus(s){ statusText.textContent = s }
+
+    async function tryAutoLoad(){
+      try{
+        const r = await fetch('./preguntas_estudio.json');
+        if(!r.ok) throw new Error('No encontrado');
+        const data = await r.json();
+        allQuestions = data.map(q => ({...q}));
+        questions = allQuestions.slice();
+        populateTemas();
+        index = 0; modeExam=false; userAnswers={}; doubts=new Set(); checkedQuestions=new Set();
+        updateView(); setStatus('Banco cargado.');
+      }catch(e){ setStatus('No se pudo cargar automáticamente: '+e.message) }
+    }
+
+    document.getElementById('tryAuto').addEventListener('click', tryAutoLoad);
+
+    document.getElementById('prevBtn').addEventListener('click', ()=>{ if(index>0){ index--; updateView() } });
+    document.getElementById('nextBtn').addEventListener('click', ()=>{ if(index<questions.length-1){ index++; updateView() } });
+    document.getElementById('doubtBtn').addEventListener('click', ()=>{ toggleDoubt(); });
+    document.getElementById('checkBtn').addEventListener('click', ()=>{ checkCurrent(); });
+    document.getElementById('examBtn').addEventListener('click', ()=>{ startExam(20) });
+
+    temaFilter.addEventListener('change', ()=>{ filterByTema(temaFilter.value=='Todos'?null:temaFilter.value) });
+    temaSelect.addEventListener('change', ()=>{ filterByTema(temaSelect.value=='Todos'?null:temaSelect.value) });
+
+    function populateTemas(){
+      const temas = ['Todos',...Array.from(new Set(allQuestions.map(q=>q.tema || 'Sin tema'))).sort()];
+      temaSelect.innerHTML = temas.map(t=>`<option>${t}</option>`).join('');
+      temaFilter.innerHTML = temaSelect.innerHTML;
+    }
+
+    // 🔀 Mezclador de arrays
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function updateView(){
+      if(questions.length===0){
+        headerTitle.textContent='Sin preguntas cargadas';
+        enunciado.textContent='Cargue un JSON con preguntas.';
+        opts.innerHTML=''; progressBar.style.width='0%'; return;
+      }
+
+      const q = questions[index];
+
+      // mezclamos opciones y guardamos cuál es la correcta
+      const opciones = q.opciones.map((op, i)=>({texto: op, i}));
+      const mezcladas = shuffle(opciones.slice());
+      q._opcionesMezcladas = mezcladas;
+      q._correctaIndex = mezcladas.findIndex(op => op.i === q.correcta);
+
+      headerTitle.textContent = `${q.tema || 'Tema'} — Pregunta ${index+1}/${questions.length} [${modeExam? 'Examen':'Estudio'}]`;
+      enunciado.textContent = q.enunciado;
+      opts.innerHTML = '';
+
+      mezcladas.forEach((op, i)=>{
+        const div = document.createElement('div');
+        div.className = 'opt'; div.dataset.i = i;
+        div.innerHTML = `<strong>${'abcd'[i]})</strong> ${op.texto}`;
+        div.addEventListener('click', ()=>{ selectOption(i); });
+        opts.appendChild(div);
+      });
+
+      const sel = userAnswers[index] ?? -1; 
+      if(sel!==-1) selectDOMOption(sel,false);
+
+      feedback.textContent = '';
+      solution.textContent = '';
+      const pct = Math.round(((index+1)/questions.length)*100);
+      progressBar.style.width = pct + '%';
+      refreshDoubtsList();
+      setStatus('Listo');
+    }
+
+    function selectOption(i){ userAnswers[index]=i; selectDOMOption(i,true); }
+
+    function selectDOMOption(i){
+      document.querySelectorAll('.opt').forEach(el=>{ el.classList.remove('selected','correct','wrong') });
+      const el = document.querySelector(`.opt[data-i='${i}']`);
+      if(el) el.classList.add('selected');
+    }
+
+    function checkCurrent(){
+      const q = questions[index];
+      const sel = userAnswers[index] ?? -1;
+      if(sel===-1){
+        feedback.textContent='No has seleccionado una opción.';
+        feedback.style.color='var(--muted)';
+        solution.textContent = `Solución: ${'abcd'[q._correctaIndex]}) ${q._opcionesMezcladas[q._correctaIndex].texto}`;
+        return;
+      }
+      checkedQuestions.add(index);
+      if(sel===q._correctaIndex){
+        feedback.textContent='✔ ¡Correcto!';
+        feedback.style.color='var(--success)';
+        document.querySelector(`.opt[data-i='${sel}']`).classList.add('correct');
+      } else {
+        feedback.textContent='✖ Incorrecto.';
+        feedback.style.color='var(--danger)';
+        document.querySelector(`.opt[data-i='${sel}']`).classList.add('wrong');
+        solution.textContent = `Solución: ${'abcd'[q._correctaIndex]}) ${q._opcionesMezcladas[q._correctaIndex].texto}`;
+      }
+    }
+
+    function toggleDoubt(){ if(doubts.has(index)){ doubts.delete(index) } else doubts.add(index); refreshDoubtsList(); }
+
+    function refreshDoubtsList(){
+      doubtsList.innerHTML='';
+      if(doubts.size===0){ doubtsList.textContent='—' ; return }
+      Array.from(doubts).sort((a,b)=>a-b).forEach(i=>{
+        const q=questions[i];
+        const el = document.createElement('div');
+        el.textContent = `${i+1}. ${q.tema||'Tema'}`;
+        el.style.padding='4px 6px'; el.style.cursor='pointer';
+        el.addEventListener('click', ()=>{ index = i; updateView() });
+        doubtsList.appendChild(el);
+      })
+    }
+
+    function filterByTema(tema){
+      questions = tema? allQuestions.filter(q=>q.tema===tema): allQuestions.slice();
+      index=0; userAnswers={}; doubts=new Set(); modeExam=false; populateTemas(); updateView();
+    }
+
+    function startExam(num){
+      if(allQuestions.length===0) return alert('Carga primero preguntas.');
+      modeExam=true; userAnswers={}; doubts=new Set();
+      questions = [...allQuestions].sort(()=>Math.random()-0.5).slice(0,Math.min(num,allQuestions.length));
+      index=0; updateView();
+    }
+
+    window.addEventListener('load', ()=>{ tryAutoLoad(); });
+  </script>
+</body>
+</html>
