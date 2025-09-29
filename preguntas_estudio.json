@@ -1,0 +1,2726 @@
+[
+  {
+    "tema": "Tema 1",
+    "qnum": 1,
+    "enunciado": "¿Qué es ITIL?",
+    "opciones": [
+      "Un estándar internacional obligatorio.",
+      "Un conjunto de buenas prácticas para la gestión de servicios TI.",
+      "Un método exclusivo para la gestión de infraestructuras.",
+      "Un sistema automático de gestión de servicios."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 2,
+    "enunciado": "¿Qué características NO corresponde a ITIL?",
+    "opciones": [
+      "No es una norma.",
+      "Es un conjunto de reglas.",
+      "No es una metodología.",
+      "Es una biblioteca de buenas prácticas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 3,
+    "enunciado": "¿Cuál fue la entidad que creó ITIL en los años 80?",
+    "opciones": [
+      "ITSM International.",
+      "AXELOS.",
+      "CCTA (Central Computer and Telecommunications Agency).",
+      "ISO (International Organization for Standardization)."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 4,
+    "enunciado": "¿Qué versión de ITIL fue publicada en 2019?",
+    "opciones": [
+      "ITIL v1.",
+      "ITIL v2.",
+      "ITIL v3.",
+      "ITIL v4."
+    ],
+    "correcta": 3
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 5,
+    "enunciado": "¿Qué estándar de calidad se basa en ITIL?",
+    "opciones": [
+      "ISO 20000.",
+      "ISO 9001.",
+      "CMMI.",
+      "ISO 27001."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 6,
+    "enunciado": "Según ITIL, ¿cuál es el objetivo de los servicios TI?",
+    "opciones": [
+      "Reducir costos de infraestructura.",
+      "Facilitar resultados para los clientes sin que estos asuman costos y riesgos",
+      "Maximizar la autonomía tecnológica de los clientes.",
+      "Implementar soluciones basadas únicamente en hardware."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 7,
+    "enunciado": "¿Qué término se utiliza para describir el beneficio percibido por el cliente?",
+    "opciones": [
+      "Riesgo.",
+      "Valor.",
+      "Disponibilidad.",
+      "Garantía."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 8,
+    "enunciado": "¿Qué componentes determinan el valor de un servicio según ITIL?",
+    "opciones": [
+      "Funcionalidad y fiabilidad.",
+      "Utilidad y garantía.",
+      "Rendimiento y disponibilidad.",
+      "Continuidad y seguridad."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 9,
+    "enunciado": "¿Qué debe cumplir un servicio para ser considerado útil según ITIL?",
+    "opciones": [
+      "Ofrecer una solución temporal a los problemas del cliente.",
+      "Cumplir los requisitos del cliente y mejorar el rendimiento.",
+      "Reducir el costo de los servicios prestados.",
+      "Garantizar la seguridad de la información."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 10,
+    "enunciado": "¿Qué garantiza la calidad de un servicio TI en términos de garantía?",
+    "opciones": [
+      "Que el servicio esté disponible y sea seguro, cumpliendo los niveles acordados.",
+      "Que el cliente asuma los riesgos tecnológicos.",
+      "Que los costos se mantengan bajos.",
+      "Que los proveedores externos gestionen todos los incidentes."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 11,
+    "enunciado": "¿Qué actividades componen la cadena de valor del servicio en ITIL?",
+    "opciones": [
+      "Diseño, construcción, pruebas y despliegue.",
+      "Planificar, diseñar, obtener/construir, entregar y mejorar.",
+      "Diagnóstico, solución, implementación y mantenimiento.",
+      "Gestión de problemas, gestión de incidencias y validación."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 12,
+    "enunciado": "¿Qué significa la actividad \"implicar\" en la cadena de valor?",
+    "opciones": [
+      "Comprender las necesidades de las partes interesadas y mantener buenas relaciones.",
+      "Diseñar la arquitectura del servicio.",
+      "Implementar cambios en la infraestructura.",
+      "Monitorizar los niveles de servicio."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 13,
+    "enunciado": "¿Qué actividad de la cadena de valor implica crear o configurar los componentes de un servicio? ",
+    "opciones": [
+      "Mejorar.",
+      "Entregar y apoyar.",
+      "Obtener y construir.",
+      "Diseñar y transicionar."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 14,
+    "enunciado": "¿Qué actividad está relacionada con la entrega y soporte de servicios TI?",
+    "opciones": [
+      "Diseñar y transicionar.",
+      "Planificar.",
+      "Entregar y apoyar.",
+      "Mejorar."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 15,
+    "enunciado": "¿Qué se busca con la actividad \"mejorar\" en la cadena de valor?",
+    "opciones": [
+      "Crear nuevos servicios desde cero.",
+      "Optimizar los servicios, productos y prácticas actuales.",
+      "Reducir el tiempo de las fases de despliegue.",
+      "Aumentar la seguridad mediante controles adicionales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 16,
+    "enunciado": "¿Qué rol es responsable de contratar la prestación de un servicio TI?",
+    "opciones": [
+      "Usuario.",
+      "Cliente.",
+      "Sponsor.",
+      "Proveedor."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 17,
+    "enunciado": "¿Quién paga por los servicios TI en una organización?",
+    "opciones": [
+      "El cliente.",
+      "El sponsor.",
+      "El usuario.",
+      "El proveedor."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 18,
+    "enunciado": "¿Qué rol utiliza el servicio TI pero no lo contrata ni lo paga?",
+    "opciones": [
+      "Usuario.",
+      "Cliente.",
+      "Sponsor.",
+      "Gestor de incidencias."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 23,
+    "enunciado": "¿Cuál es el objetivo principal de la gestión de incidentes?",
+    "opciones": [
+      "Identificar las causas raíz de los problemas.",
+      "Restaurar el servicio a su estado normal lo más rápido posible.",
+      "Prevenir la recurrencia de problemas similares.",
+      "Documentar las incidencias en un informe técnico."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 24,
+    "enunciado": "¿Qué es un incidente según ITIL?",
+    "opciones": [
+      "Un cambio no autorizado en la configuración del servicio.",
+      "Una interrupción no planificada o reducción en la calidad de un servicio.",
+      "Un problema detectado durante las pruebas de desarrollo.",
+      "Un error de configuración en la base de datos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 27,
+    "enunciado": "¿Qué diferencia un problema de un incidente según ITIL? ",
+    "opciones": [
+      "Los problemas no generan impacto directo en los usuarios.",
+      "Un problema es la causa raíz detrás de uno o más incidentes.",
+      "Los incidentes no requieren resolución inmediata.",
+      "Los problemas son siempre visibles para los clientes."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 28,
+    "enunciado": "¿Qué objetivo tiene la gestión de problemas?",
+    "opciones": [
+      "Identificar y eliminar las causas de los incidentes de manera proactiva.",
+      "Resolver incidentes individuales en el menor tiempo posible.",
+      "Documentar los cambios realizados en el sistema.",
+      "Reducir la cantidad de usuarios que reportan problemas."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 29,
+    "enunciado": "¿Qué es un error conocido en la gestión de problemas?",
+    "opciones": [
+      "Un incidente recurrente que afecta a múltiples usuarios.",
+      "Un problema con una causa raíz identificada y documentada.",
+      "Una interrupción menor en el servicio.",
+      "Un incidente que no ha sido resuelto por el equipo de soporte."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 30,
+    "enunciado": "¿Qué objetivo persigue la gestión del cambio?",
+    "opciones": [
+      "Reducir los costos de mantenimiento del sistema.",
+      "Garantizar que los cambios sean planificados, evaluados y realizados con éxito.",
+      "Automatizar todos los procesos de implementación.",
+      "Probar las configuraciones antes de desplegarlas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 31,
+    "enunciado": "¿Qué es un RFC (Request for Change) según ITIL?",
+    "opciones": [
+      "Una petición formal para realizar un cambio en un servicio o componente.",
+      "Un error identificado durante el despliegue.",
+      "Un informe técnico sobre un incidente crítico.",
+      "Una configuración de prueba en un entorno controlado."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 32,
+    "enunciado": "¿Qué se gestiona en la gestión de la configuración?",
+    "opciones": [
+      "Los cambios realizados en el software del sistema.",
+      "Los activos y componentes del servicio, incluidas sus relaciones.",
+      "Los contratos con los proveedores externos.",
+      "Las métricas de rendimiento de los usuarios finales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 33,
+    "enunciado": "¿Qué se registra en la base de datos de gestión de configuración (CMDB)?",
+    "opciones": [
+      "Todas las transacciones realizadas por los usuarios.",
+      "Información detallada sobre los activos, incluyendo su configuración y relaciones.",
+      "Solo incidentes resueltos por el equipo de soporte.",
+      "Los resultados de las auditorías realizadas en los servicios."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 34,
+    "enunciado": "¿Qué mide la gestión de la disponibilidad?",
+    "opciones": [
+      "La velocidad de resolución de incidentes.",
+      "La capacidad del servicio para estar disponible y cumplir con los requisitos",
+      "La frecuencia de cambios realizados en el sistema.",
+      "El tiempo necesario para implementar un nuevo servicio."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 35,
+    "enunciado": "¿Qué término describe el tiempo en que un servicio no está disponible?",
+    "opciones": [
+      "Tiempo de actividad.",
+      "Tiempo de inactividad.",
+      "Resolución estándar.",
+      "Tiempo de espera."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 36,
+    "enunciado": "¿Cuál es el objetivo de la gestión financiera de servicios?",
+    "opciones": [
+      "Reducir los costos operativos a corto plazo.",
+      "Asegurar que los servicios sean gestionados de manera rentable y eficiente.",
+      "Eliminar los servicios con menor impacto financiero.",
+      "Aumentar el presupuesto anual de TI."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 37,
+    "enunciado": "¿Qué componente de la gestión financiera evalúa los costos asociados a cada servicio?",
+    "opciones": [
+      "Facturación.",
+      "Gestión de activos.",
+      "Contabilidad de servicios.",
+      "Gestión de riesgos."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 38,
+    "enunciado": "¿Qué son los KPIs (Key Performance Indicators)?",
+    "opciones": [
+      "Indicadores que miden la efectividad de los procesos y servicios.",
+      "Un conjunto de reglas para gestionar cambios.",
+      "Las métricas de tiempo de resolución de problemas.",
+      "Los objetivos acordados en los contratos de soporte."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 39,
+    "enunciado": "¿Qué mide un SLA (Service Level Agreement)?",
+    "opciones": [
+      "Los acuerdos entre el cliente y los proveedores sobre los niveles de servicio",
+      "Los tiempos máximos para realizar cambios en el sistema.",
+      "La frecuencia con la que ocurren incidentes.",
+      "Los beneficios financieros asociados a los servicios."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 1",
+    "qnum": 40,
+    "enunciado": "¿Qué métrica puede utilizarse para medir el éxito de la gestión de servicios?",
+    "opciones": [
+      "Porcentaje de incidentes resueltos en el primer nivel de soporte.",
+      "Número total de usuarios de un servicio.",
+      "Cantidad de cambios realizados al año.",
+      "Coste total del equipo de TI."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 1,
+    "enunciado": "¿Qué es un centro de datos?",
+    "opciones": [
+      "Un espacio virtual para almacenar datos.",
+      "Una instalación para alojar, administrar y brindar soporte a recursos informáticos",
+      "Un software para la gestión de infraestructura.",
+      "Un sistema de respaldo exclusivo para empresas pequeñas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 2,
+    "enunciado": "¿Qué elementos forman parte de la infraestructura física de un centro de datos?",
+    "opciones": [
+      "Solo sistemas de refrigeración.",
+      "Cableado estructurado y dispositivos de red, servidores y sistemas de",
+      "Exclusivamente cabinas de equipos.",
+      "Sistemas de refrigeración y software de gestión."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 3,
+    "enunciado": "¿Qué es el \"Data Center 1.0\"?",
+    "opciones": [
+      "Un modelo basado en virtualización y cloud computing.",
+      "Salas de computadoras diseñadas para alojar sistemas mainframe.",
+      "Centros de datos distribuidos con servidores de baja gama.",
+      "Un modelo de aplicaciones cliente-servidor."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 4,
+    "enunciado": "¿Qué tecnologías se introducen en el Data Center 3.0?",
+    "opciones": [
+      "Sistemas de almacenamiento distribuidos exclusivamente.",
+      "Virtualización, automatización y estandarización.",
+      "Modelos cliente-servidor con enlaces WAN.",
+      "Servidores de baja gama en ubicaciones improvisadas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 5,
+    "enunciado": "¿Qué objetivo tiene la gestión de capacidad?",
+    "opciones": [
+      "Reducir el número de usuarios concurrentes en el sistema.",
+      "Asegurar que los servicios cumplen con el rendimiento acordado y la demanda",
+      "Monitorizar únicamente los datos históricos de uso.",
+      "Diseñar sistemas que no necesiten escalabilidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 6,
+    "enunciado": "¿Qué herramienta analítica utiliza la gestión de capacidad para modelar cargas de trabajo?",
+    "opciones": [
+      "Teoría de Colas.",
+      "Modelos gráficos.",
+      "Simulaciones manuales.",
+      "Análisis regresivo simple."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 7,
+    "enunciado": "¿Qué actividad se realiza durante la \"Planificación de Capacidad\"?",
+    "opciones": [
+      "Analizar datos históricos exclusivamente.",
+      "Predecir niveles de carga y planificar recursos futuros.",
+      "Reducir los niveles de servicio acordados.",
+      "Diseñar hardware redundante."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 8,
+    "enunciado": "¿Qué significa que un sistema sea escalable?",
+    "opciones": [
+      "Que no necesita cambios para soportar mayor carga.",
+      "Que puede manejar más usuarios o recursos sin degradación notable del rendimiento.",
+      "Que requiere reemplazo completo para adaptarse a nuevas demandas.",
+      "Que solo se puede expandir geográficamente."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 9,
+    "enunciado": "¿Qué diferencia existe entre escalado horizontal y vertical?",
+    "opciones": [
+      "El escalado horizontal añade nodos; el vertical mejora la capacidad de un nodo",
+      "El escalado vertical requiere más nodos que el horizontal.",
+      "El horizontal utiliza memoria exclusivamente, mientras que el vertical usa CPU.",
+      "El vertical es para almacenamiento y el horizontal para procesamiento."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 10,
+    "enunciado": "¿Qué técnica de escalado permite añadir recursos virtuales a un nodo concreto?",
+    "opciones": [
+      "Escalado horizontal en entorno físico.",
+      "Escalado vertical en entorno virtual.",
+      "Cloud computing dinámico.",
+      "Escalado geométrico."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 11,
+    "enunciado": "¿Qué significa replicar un servicio?",
+    "opciones": [
+      "Crear una copia física redundante en el mismo servidor.",
+      "Tener múltiples instancias autónomas que aparecen como una sola hacia el usuario.",
+      "Reducir la carga de un sistema eliminando nodos.",
+      "Almacenar datos históricos sin procesarlos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 12,
+    "enunciado": "¿Qué objetivo tiene la replicación distribuida?",
+    "opciones": [
+      "Mejorar exclusivamente la conectividad de red.",
+      "Reducir fallos de conectividad y mejorar la disponibilidad.",
+      "Sustituir sistemas redundantes por otros más simples.",
+      "Limitar la heterogeneidad de los nodos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 13,
+    "enunciado": "¿Qué asegura la consistencia en un sistema distribuido replicado?",
+    "opciones": [
+      "Que los datos sean únicos en un nodo.",
+      "Que la información sea idéntica en todos los nodos desde la perspectiva del lector.",
+      "Que los cambios no se propaguen hasta que se validen manualmente.",
+      "Que no haya múltiples copias de un mismo archivo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 14,
+    "enunciado": "¿Qué es un balanceador de carga (Load Balancer)?",
+    "opciones": [
+      "Un dispositivo para replicar datos entre servidores.",
+      "Un sistema que distribuye peticiones de usuarios entre múltiples nodos o servidores.",
+      "Un algoritmo que elimina nodos con mayor carga.",
+      "Un sistema que centraliza el acceso a servicios."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 15,
+    "enunciado": "¿Qué técnica permite mantener las conexiones de un cliente en el mismo servidor en un balanceador de carga?",
+    "opciones": [
+      "Round-robin.",
+      "Stickiness table.",
+      "DNS dinámico.",
+      "Hashing."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 2",
+    "qnum": 16,
+    "enunciado": "¿Qué caracteriza al balanceo \"round-robin\"?",
+    "opciones": [
+      "Asigna conexiones al servidor con menor carga.",
+      "Utiliza hashing para decidir el servidor.",
+      "Distribuye conexiones de forma secuencial entre los servidores.",
+      "Se basa en el ancho de banda disponible."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 1,
+    "enunciado": "¿Qué es la virtualización? o",
+    "opciones": [
+      "La creación de nuevos recursos físicos.",
+      "La emulación transparente de un recurso TI.",
+      "El aislamiento de sistemas mediante firewalls.",
+      "La gestión centralizada de redes."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 2,
+    "enunciado": "¿Cuál de estas es una característica de la virtualización? o",
+    "opciones": [
+      "Disimulación de atributos reales.",
+      "Creación de recursos compartidos en la nube.",
+      "Reemplazo físico de hardware.",
+      "Reducción de latencia en redes."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 3,
+    "enunciado": "¿Qué componente de una máquina virtual actúa como anfitrión? o",
+    "opciones": [
+      "El hipervisor.",
+      "La plataforma de hardware subyacente.",
+      "La capa de abstracción del software.",
+      "El sistema operativo huésped."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 4,
+    "enunciado": "¿Qué ventaja ofrecen las máquinas virtuales? o",
+    "opciones": [
+      "Aumentan la velocidad de los procesadores físicos.",
+      "Permiten ejecutar versiones antiguas de software.",
+      "Eliminan la necesidad de un sistema operativo huésped.",
+      "Garantizan el aislamiento total de redes."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 5,
+    "enunciado": "¿Qué función cumple un hipervisor (MMV)? o",
+    "opciones": [
+      "Gestionar el hardware subyacente.",
+      "Proveer aislamiento entre máquinas virtuales.",
+      "Mejorar el rendimiento de los procesadores.",
+      "Reducir la carga de red en sistemas distribuidos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 6,
+    "enunciado": "¿Cuál de estas NO es una función del hipervisor? o",
+    "opciones": [
+      "Controlar el acceso a estados privilegiados.",
+      "Traducir direcciones.",
+      "Ejecutar directamente aplicaciones de usuario.",
+      "Procesar excepciones de entrada/salida."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 7,
+    "enunciado": "¿Qué característica define a un hipervisor de tipo 1? o",
+    "opciones": [
+      "Ejecutarse directamente en el hardware del servidor.",
+      "Requerir un sistema operativo huésped.",
+      "Ser más lento que los hipervisores de tipo 2.",
+      "Limitar la cantidad de máquinas virtuales."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 8,
+    "enunciado": "¿Qué ejemplo corresponde a un hipervisor de tipo 2? o",
+    "opciones": [
+      "VMware ESX.",
+      "Microsoft Hyper-V.",
+      "VirtualBox.",
+      "Xen."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 9,
+    "enunciado": "¿Qué técnica utiliza la virtualización para agrupar múltiples recursos físicos en uno lógico? o",
+    "opciones": [
+      "Particionado.",
+      "Abstracción.",
+      "Pooling.",
+      "Remapping."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 10,
+    "enunciado": "¿Qué implica el concepto de abstracción en la virtualización? o",
+    "opciones": [
+      "Dividir recursos físicos en particiones lógicas.",
+      "Crear un único recurso virtual a partir de uno físico.",
+      "Agrupar recursos heterogéneos en una sola entidad.",
+      "Limitar el acceso de las máquinas virtuales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 11,
+    "enunciado": "¿Qué tipo de RAID ofrece duplicación de bloques para redundancia? o",
+    "opciones": [
+      "RAID 0.",
+      "RAID 1.",
+      "RAID 5.",
+      "RAID 10."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 12,
+    "enunciado": "¿Cuál es una ventaja de la replicación síncrona en la virtualización? o",
+    "opciones": [
+      "Mayor tolerancia a fallos en redes.",
+      "Garantiza que los datos del array primario estén en el secundario.",
+      "Reduce el impacto en el rendimiento del servidor.",
+      "Mantiene en cola los datos hasta la confirmación."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 13,
+    "enunciado": "¿Qué componente de una red SAN gestiona el tráfico entre dispositivos de red? o",
+    "opciones": [
+      "Fibre Channel.",
+      "Fabric.",
+      "Initiator.",
+      "WWN."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 14,
+    "enunciado": "¿Qué representa el término WWN en redes Fibre Channel? o",
+    "opciones": [
+      "Un nodo replicado en el fabric.",
+      "Un identificador único de puerto FC.",
+      "Una dirección de red IP virtual.",
+      "Un adaptador de red físico."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 15,
+    "enunciado": "¿Qué es VRRP en virtualización de redes? o",
+    "opciones": [
+      "Un protocolo para redundancia en puerta de enlace.",
+      "Una técnica de segmentación de VLAN.",
+      "Un estándar para balanceo de carga.",
+      "Un mecanismo para controlar firewalls virtuales."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 16,
+    "enunciado": "¿Qué técnica permite compartir VLAN entre múltiples switches? o",
+    "opciones": [
+      "Virtual Switching.",
+      "VLAN trunking.",
+      "Link aggregation.",
+      "Hard zoning."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 17,
+    "enunciado": "¿Qué protocolo SDN permite el control del plano de reenvío? o",
+    "opciones": [
+      "Fibre Channel.",
+      "OpenFlow.",
+      "VXLAN.",
+      "NVGRE."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 18,
+    "enunciado": "¿Cuál es el objetivo principal de VXLAN? o",
+    "opciones": [
+      "Permitir comunicación entre LAN diferentes.",
+      "Crear firewalls distribuidos.",
+      "Balancear cargas en hipervisores.",
+      "Reducir el ancho de banda de las redes."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 19,
+    "enunciado": "¿Qué función cumple el NSX EdgeServicesGateway? o",
+    "opciones": [
+      "Gestionar tráfico entre redes físicas y virtuales.",
+      "Proveer almacenamiento virtual.",
+      "Ejecutar balanceo de carga lógico.",
+      "Crear conmutadores lógicos."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 20,
+    "enunciado": "¿Qué técnica permite la migración de una VM entre hosts sin interrupción? o",
+    "opciones": [
+      "DRS.",
+      "vMotion.",
+      "FT.",
+      "VLAN."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 3",
+    "qnum": 4,
+    "enunciado": "¿Qué elemento de la virtualización emula un conmutador Ethernet? a) Sabemos que compras online cuando estás en clase y desde ING queremos decirte algo: te lo mereces",
+    "opciones": [
+      "Sabemos que compras online cuando estás en clase y desde ING queremos decirte algo: te lo mereces",
+      "NSX EdgeServicesGateway.",
+      "Virtual Switching.",
+      "Link Aggregation."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 1,
+    "enunciado": "¿Qué concepto define el objetivo principal de Cloud Computing? o",
+    "opciones": [
+      "Abstracción del hardware físico.",
+      "Nuevo modelo para aprovisionar recursos.",
+      "Gestión centralizada de redes físicas.",
+      "Reemplazo de los servidores físicos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 2,
+    "enunciado": "¿Cuál es una característica de los modelos de servicio en Cloud Computing? o",
+    "opciones": [
+      "Gestión directa del hardware físico.",
+      "Transparencia respecto al mundo físico.",
+      "Dependencia del sistema operativo huésped.",
+      "Uso exclusivo de recursos privados."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 3,
+    "enunciado": "¿Qué característica define un Public Cloud? o",
+    "opciones": [
+      "Los recursos se alojan en la red privada del cliente.",
+      "Los recursos son proporcionados dinámicamente por un proveedor",
+      "Combina recursos internos y externos en una solución mixta.",
+      "Los datos permanecen bajo el control del cliente."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 4,
+    "enunciado": "¿Qué modelo de despliegue combina proveedores internos y externos? o",
+    "opciones": [
+      "Public Cloud.",
+      "Private Cloud.",
+      "Hybrid Cloud.",
+      "Distributed Cloud."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 5,
+    "enunciado": "¿Qué servicio de Cloud Computing ofrece hardware virtualizado? o",
+    "opciones": [
+      "SaaS.",
+      "PaaS.",
+      "IaaS.",
+      "FaaS."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 6,
+    "enunciado": "¿Cuál es una ventaja principal de IaaS? o",
+    "opciones": [
+      "Reduce el tiempo necesario para gestionar aplicaciones.",
+      "Oculta la infraestructura a los desarrolladores.",
+      "Permite alquilar servidores físicos o virtuales según necesidad.",
+      "Proporciona herramientas integradas de desarrollo."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 7,
+    "enunciado": "¿Qué servicio de Cloud Computing permite a los desarrolladores centrarse en aplicaciones sin gestionar la infraestructura? o",
+    "opciones": [
+      "SaaS.",
+      "PaaS.",
+      "IaaS.",
+      "CaaS."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 8,
+    "enunciado": "¿Qué característica de PaaS reduce los ciclos de desarrollo de aplicaciones? o",
+    "opciones": [
+      "Requiere acceso directo al sistema operativo.",
+      "Gestión automatizada de infraestructura.",
+      "Abstracción del hardware físico.",
+      "Escalabilidad infinita."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 9,
+    "enunciado": "¿Cuál es un ejemplo de un servicio IaaS? o",
+    "opciones": [
+      "Google App Engine.",
+      "Amazon Elastic Compute Cloud (EC2).",
+      "SalesForce.com.",
+      "GoogleApps."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 10,
+    "enunciado": "¿Qué característica distingue a SaaS de otros modelos? o",
+    "opciones": [
+      "Proporciona hardware virtualizado.",
+      "Ofrece aplicaciones completas a través de Internet.",
+      "Permite a los desarrolladores definir dependencias.",
+      "Es un modelo de despliegue privado."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 11,
+    "enunciado": "¿Qué servicio Cloud es ideal para usuarios finales que necesitan aplicaciones listas para usar? o",
+    "opciones": [
+      "IaaS.",
+      "PaaS.",
+      "SaaS.",
+      "CaaS."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 12,
+    "enunciado": "¿Qué ventaja ofrece el auto-servicio bajo demanda en Cloud Computing? o",
+    "opciones": [
+      "Escalado automático de aplicaciones.",
+      "Acceso a recursos sin interacción humana con el proveedor.",
+      "Reducción del costo por uso de servicios.",
+      "Independencia de la plataforma."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 13,
+    "enunciado": "¿Qué permite el pooling de recursos en Cloud Computing? o",
+    "opciones": [
+      "Redundancia de datos.",
+      "Reservar recursos físicos o virtuales dinámicamente.",
+      "Gestión directa de servidores físicos.",
+      "Control total sobre las redes virtuales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 14,
+    "enunciado": "¿Qué significa \"scale up\" en un entorno de Cloud Computing? o",
+    "opciones": [
+      "Aumentar el número de servidores físicos.",
+      "Incrementar la capacidad de computación de un servidor.",
+      "Migrar aplicaciones a una nube híbrida.",
+      "Dividir recursos entre varios clientes."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 15,
+    "enunciado": "¿Qué técnica permite gestionar la infraestructura como código (IaC)? o",
+    "opciones": [
+      "Gestión de recursos físicos directamente.",
+      "Definir y automatizar infraestructura en un lenguaje parseable.",
+      "Usar herramientas específicas para orquestación de redes.",
+      "Crear imágenes de sistema operativo virtualizadas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 16,
+    "enunciado": "¿Qué herramienta es un ejemplo para implementar IaC? o",
+    "opciones": [
+      "OpenStack.",
+      "Chef.",
+      "VMware ESX.",
+      "Fibre Channel."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 17,
+    "enunciado": "¿Qué característica define un sistema basado en patrones reconciliadores? o",
+    "opciones": [
+      "El uso de hardware distribuido.",
+      "La comparación constante entre estados real y esperado.",
+      "La implementación de microservicios en redes virtuales.",
+      "La orquestación de almacenamiento en la nube."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 18,
+    "enunciado": "¿Qué permite un SDN (Software-Defined Networking)? o",
+    "opciones": [
+      "Gestión directa del plano físico de datos.",
+      "Separación del plano de control del plano de datos.",
+      "Reducción del uso de recursos virtuales.",
+      "Control manual de las redes de clientes."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 19,
+    "enunciado": "¿Qué servicio de Google Cloud Platform es un ejemplo de PaaS? o",
+    "opciones": [
+      "Google Compute Engine.",
+      "Google App Engine.",
+      "Amazon Elastic Block Store.",
+      "OpenStack."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 20,
+    "enunciado": "¿Qué tecnología Cloud Open Source gestiona recursos con una arquitectura modular? o",
+    "opciones": [
+      "Amazon S3.",
+      "OpenStack.",
+      "VMware ESXi.",
+      "Google App Engine."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 21,
+    "enunciado": "¿Qué componente de OpenStack gestiona el ciclo de vida de las instancias? o",
+    "opciones": [
+      "Nova.",
+      "Neutron.",
+      "Keystone.",
+      "Cinder."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 22,
+    "enunciado": "¿Qué función realiza el servicio Neutron en OpenStack? o",
+    "opciones": [
+      "Gestión de identidades y autenticaciones.",
+      "Proporciona conectividad de red.",
+      "Almacena imágenes de discos virtuales.",
+      "Gestiona el almacenamiento persistente."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 23,
+    "enunciado": "¿Qué servicio de OpenStack se utiliza para el almacenamiento persistente de datos en bloques? o",
+    "opciones": [
+      "Cinder.",
+      "Swift.",
+      "Glance.",
+      "Heat."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 24,
+    "enunciado": "¿Qué servicio de OpenStack gestiona las imágenes de disco virtual? o",
+    "opciones": [
+      "Glance.",
+      "Cinder.",
+      "Nova.",
+      "Neutron."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 25,
+    "enunciado": "¿Qué tipo de almacenamiento gestiona el servicio Swift en OpenStack? o",
+    "opciones": [
+      "Almacenamiento en bloques.",
+      "Almacenamiento de objetos.",
+      "Almacenamiento de archivos distribuidos.",
+      "Almacenamiento temporal."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 26,
+    "enunciado": "¿Qué componente de OpenStack proporciona una interfaz web para la gestión de recursos? o",
+    "opciones": [
+      "Dashboard.",
+      "Nova.",
+      "Cinder.",
+      "Keystone."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 27,
+    "enunciado": "¿Qué plataforma ofrece un servicio PaaS para gestionar la mayoría de los recursos y facilitar el desarrollo de aplicaciones? o",
+    "opciones": [
+      "Google App Engine.",
+      "Amazon EC2.",
+      "Windows Azure Platform.",
+      "Amazon S3."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 28,
+    "enunciado": "¿Qué permite la integración de IA con IaC (Infrastructure as Code)? o",
+    "opciones": [
+      "Automatización de la gestión de la infraestructura mediante lenguaje",
+      "Gestión de redes privadas y públicas.",
+      "Implementación de microservicios en contenedores.",
+      "Análisis del uso de recursos físicos."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 29,
+    "enunciado": "¿Qué es el servicio Elastic Load Balancing de Amazon? o",
+    "opciones": [
+      "Un servicio de almacenamiento distribuido.",
+      "Un servicio para balancear el tráfico entre instancias.",
+      "Un servicio para escalar aplicaciones automáticamente.",
+      "Un servicio de almacenamiento en la nube."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 30,
+    "enunciado": "¿Qué componente de Amazon Web Services (AWS) permite gestionar la infraestructura de redes virtuales? o",
+    "opciones": [
+      "Amazon VPC.",
+      "Amazon EC2.",
+      "Amazon CloudFront.",
+      "Amazon S3."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 31,
+    "enunciado": "¿Qué ventaja ofrece el uso de servicios PaaS en la construcción de aplicaciones? o",
+    "opciones": [
+      "Permite la gestión completa de la infraestructura.",
+      "Permite a los desarrolladores centrarse en el código sin gestionar el",
+      "Requiere mayor interacción con el hardware subyacente.",
+      "Ofrece herramientas avanzadas de análisis y monitorización de red."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 32,
+    "enunciado": "¿Qué tipo de servicios permite el modelo Hybrid Cloud? o",
+    "opciones": [
+      "Solo servicios públicos.",
+      "Solo servicios privados.",
+      "Una mezcla de servicios públicos y privados.",
+      "Solo servicios de almacenamiento en la nube."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 33,
+    "enunciado": "¿Qué es un \"container orchestration\" en un entorno Cloud? o",
+    "opciones": [
+      "Un sistema para gestionar redes virtuales.",
+      "Un servicio para gestionar múltiples instancias de contenedores.",
+      "Un servicio para ofrecer redes de computación virtualizada.",
+      "Un software para almacenar datos en la nube."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 34,
+    "enunciado": "¿Qué es un \"Virtual Private Cloud\" (VPC) en Amazon Web Services (AWS)? o",
+    "opciones": [
+      "Una red pública gestionada por AWS.",
+      "Una red privada aislada dentro de la infraestructura de AWS.",
+      "Una red que permite interconectar instancias de servidores.",
+      "Un servicio de almacenamiento privado."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 35,
+    "enunciado": "¿Cuál de los siguientes servicios de Google Cloud Platform es un ejemplo de IaaS? o",
+    "opciones": [
+      "Google App Engine.",
+      "Google Compute Engine.",
+      "Google Drive.",
+      "Google Cloud Functions."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 36,
+    "enunciado": "¿Qué ofrece el servicio de Amazon RDS (Relational Database Service)? o",
+    "opciones": [
+      "Gestión de instancias de máquinas virtuales.",
+      "Gestión de bases de datos relacionales en la nube.",
+      "Balanceo de carga de tráfico web.",
+      "Almacenamiento de objetos en la nube."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 37,
+    "enunciado": "¿Qué es una instancia en el contexto de Amazon EC2? o",
+    "opciones": [
+      "Una máquina virtual preconfigurada en la nube.",
+      "Un servicio de almacenamiento en bloque.",
+      "Un firewall para la gestión de tráfico.",
+      "Un servicio para balancear tráfico."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 38,
+    "enunciado": "¿Qué servicio de Amazon Web Services permite a los usuarios almacenar y recuperar grandes volúmenes de datos? o",
+    "opciones": [
+      "Amazon S3.",
+      "Amazon EC2.",
+      "Amazon RDS.",
+      "Amazon VPC."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 39,
+    "enunciado": "¿Qué significa \"Auto Scaling\" en Amazon Web Services? o",
+    "opciones": [
+      "Ajustar automáticamente el número de instancias de acuerdo con la",
+      "Ajustar el almacenamiento de la nube en función de la carga de datos.",
+      "Distribuir el tráfico de red de manera eficiente.",
+      "Realizar copias de seguridad automáticas de datos."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 4",
+    "qnum": 40,
+    "enunciado": "¿Qué es OpenStack? o",
+    "opciones": [
+      "Un servicio de almacenamiento en la nube de Amazon.",
+      "Un conjunto de herramientas para gestionar IaaS en la nube.",
+      "Un sistema operativo para contenedores.",
+      "Una plataforma de desarrollo de aplicaciones en la nube."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 1,
+    "enunciado": "¿Qué característica define a un microservicio? o",
+    "opciones": [
+      "Es un servicio monolítico con múltiples funcionalidades.",
+      "Es pequeño, cohesivo y autónomo.",
+      "Requiere almacenamiento persistente interno.",
+      "Depende de otros microservicios para desplegarse."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 2,
+    "enunciado": "¿Cómo se comunican los microservicios entre sí? o",
+    "opciones": [
+      "Por llamadas de sistema directo.",
+      "A través de llamadas de red y APIs.",
+      "Mediante acceso compartido al almacenamiento.",
+      "Por dependencias internas rígidas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 3,
+    "enunciado": "¿Qué ventaja tiene la heterogeneidad en los microservicios? o",
+    "opciones": [
+      "Permite el uso de diferentes tecnologías para cada servicio.",
+      "Aumenta la dependencia entre servicios.",
+      "Simplifica la configuración de sistemas monolíticos.",
+      "Facilita la replicación de datos internos."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 4,
+    "enunciado": "¿Qué ocurre si un microservicio falla? o",
+    "opciones": [
+      "Todo el sistema se detiene.",
+      "Solo afecta al microservicio específico.",
+      "Se reinicia automáticamente todo el sistema.",
+      "El almacenamiento compartido se bloquea."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 5,
+    "enunciado": "¿Qué permite el escalado en los microservicios? o",
+    "opciones": [
+      "Escalar todo el sistema simultáneamente.",
+      "Escalar solo los servicios que lo requieren.",
+      "Reducir el número de componentes del sistema.",
+      "Eliminar la redundancia en servicios críticos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 6,
+    "enunciado": "¿Qué concepto describe la reutilización de microservicios para propósitos distintos? o",
+    "opciones": [
+      "Resiliencia.",
+      "Composability.",
+      "Cohesión.",
+      "Sin estado."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 7,
+    "enunciado": "¿Qué define la comunicación síncrona entre microservicios? o",
+    "opciones": [
+      "Los servicios no esperan la respuesta para continuar.",
+      "Un servicio bloquea la operación hasta que recibe una respuesta.",
+      "La inteligencia se distribuye entre los componentes.",
+      "Los eventos generan suscripciones dinámicas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 8,
+    "enunciado": "¿Qué modelo de cooperación utiliza eventos para notificar sucesos? o",
+    "opciones": [
+      "Petición-respuesta.",
+      "Comunicación síncrona.",
+      "Basado en eventos.",
+      "Service chaining."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 9,
+    "enunciado": "¿Qué ventaja ofrece la cooperación basada en eventos? o",
+    "opciones": [
+      "Alta dependencia entre los componentes.",
+      "Uniformidad en la lógica de negocio.",
+      "Desacoplamiento entre servicios.",
+      "Eliminación de la necesidad de APIs."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 10,
+    "enunciado": "¿Qué característica NO es propia de un contenedor? o",
+    "opciones": [
+      "Portabilidad.",
+      "Consistencia.",
+      "Almacenamiento persistente interno.",
+      "Auto-contenido."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 11,
+    "enunciado": "¿Qué tecnología encapsula microservicios y los hace independientes del entorno? o",
+    "opciones": [
+      "Contenedores.",
+      "Máquinas virtuales.",
+      "Bases de datos distribuidas.",
+      "Configuraciones rígidas."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 12,
+    "enunciado": "¿Qué principio asegura que los contenedores son reemplazables en cualquier momento? o",
+    "opciones": [
+      "Persistencia interna.",
+      "Inmutabilidad.",
+      "Cohesión funcional.",
+      "Escalado automático."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 13,
+    "enunciado": "¿Qué tipo de servicios implementa tareas específicas como autenticación o monitorización? o",
+    "opciones": [
+      "Servicios de aplicación.",
+      "Servicios de infraestructura.",
+      "Servicios empresariales.",
+      "Servicios funcionales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 14,
+    "enunciado": "¿Qué tipo de servicio tiene granularidad gruesa y es utilizado por toda la organización? o",
+    "opciones": [
+      "Servicios funcionales.",
+      "Servicios empresariales.",
+      "Servicios de aplicación.",
+      "Servicios de infraestructura."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 15,
+    "enunciado": "¿Qué define a los servicios funcionales? o",
+    "opciones": [
+      "Son accesibles solo desde otros servicios internos.",
+      "Implementan operaciones específicas accesibles externamente.",
+      "Están limitados a un contexto de aplicación.",
+      "Realizan tareas no funcionales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 16,
+    "enunciado": "¿Qué ocurre si la granularidad de un microservicio es demasiado fina? o",
+    "opciones": [
+      "Mejora la cohesión del sistema.",
+      "Aumenta la complejidad en la comunicación inter-servicio.",
+      "Se eliminan las dependencias entre servicios.",
+      "Reduce el número de transacciones necesarias."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 17,
+    "enunciado": "¿Qué problema puede surgir con granularidad excesiva? o",
+    "opciones": [
+      "Incremento en el rendimiento de transacciones.",
+      "Requiere múltiples transacciones para coordinar servicios.",
+      "Reduce la resiliencia del sistema.",
+      "Limita el uso de diferentes tecnologías."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 18,
+    "enunciado": "¿Qué patrón combina múltiples contenedores para tareas específicas? o",
+    "opciones": [
+      "Service chaining.",
+      "Coordinación distribuida.",
+      "Composición de contenedores.",
+      "Coreografía de servicios."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 19,
+    "enunciado": "¿Qué deben incluir los contenedores para ser completamente funcionales? o",
+    "opciones": [
+      "Bibliotecas adicionales, entorno de ejecución y dependencias.",
+      "Datos internos y configuraciones predefinidas.",
+      "Bases de datos locales y conexión rígida a la red.",
+      "Solo dependencias externas."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 20,
+    "enunciado": "¿Qué modelo de comunicación utiliza peticiones-respuestas encadenadas? o",
+    "opciones": [
+      "Coreografía de servicios.",
+      "Service chaining.",
+      "Comunicación asíncrona.",
+      "Modelo síncrono."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 21,
+    "enunciado": "¿Qué problema puede presentarse en la comunicación basada en eventos? o",
+    "opciones": [
+      "Alta dependencia entre servicios.",
+      "Dificultad para monitorizar transacciones completas.",
+      "Baja flexibilidad en la lógica de negocio.",
+      "Necesidad de centralizar la inteligencia en un coordinador."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 22,
+    "enunciado": "¿Qué metáfora describe la coreografía de servicios? o",
+    "opciones": [
+      "Un director de orquesta que coordina servicios.",
+      "Bailarines interactuando sin un director central.",
+      "Un mediador central que monitorea transacciones.",
+      "Componentes independientes sin interacciones."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 23,
+    "enunciado": "¿Qué característica tienen los contenedores en entornos nativos de la nube? o",
+    "opciones": [
+      "Su estado es interno y no distribuido.",
+      "Se inician y cierran rápidamente.",
+      "No permiten escalado automático.",
+      "Deben contener datos persistentes."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 24,
+    "enunciado": "¿Qué ventaja ofrecen los contenedores pequeños? o",
+    "opciones": [
+      "Reducen el tiempo de inicio al copiarse físicamente en el host.",
+      "Permiten el almacenamiento interno de datos críticos.",
+      "Eliminan la necesidad de configuraciones externalizadas.",
+      "Sustituyen los entornos distribuidos."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 25,
+    "enunciado": "¿Qué información deben declarar los contenedores? o",
+    "opciones": [
+      "Solo los requisitos de red y CPU.",
+      "Perfil completo de recursos como CPU, memoria y disco.",
+      "Solo dependencias del entorno.",
+      "Configuraciones exclusivas para el desarrollo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 26,
+    "enunciado": "¿Qué elemento DEBE estar presente al construir un contenedor? o",
+    "opciones": [
+      "Kernel de Linux propio.",
+      "Entorno de ejecución y dependencias necesarias.",
+      "Configuraciones predefinidas para cada entorno.",
+      "Almacenamiento interno para datos sensibles."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 27,
+    "enunciado": "¿Qué principio asegura que los contenedores sean independientes del entorno? o",
+    "opciones": [
+      "Persistencia interna.",
+      "Externalización de configuraciones.",
+      "Cohesión funcional.",
+      "Comunicación síncrona."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 28,
+    "enunciado": "¿Qué acción se toma ante un fallo en una comprobación de estado del contenedor? o",
+    "opciones": [
+      "El contenedor se migra a un host diferente.",
+      "Se actualiza el kernel del contenedor.",
+      "Se desconecta la red principal.",
+      "Se almacena el estado interno del contenedor."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 29,
+    "enunciado": "¿Qué se espera de los contenedores según las motivaciones principales? o",
+    "opciones": [
+      "Ser efímeros y reemplazables.",
+      "Almacenar datos persistentes.",
+      "Compartir configuraciones entre entornos.",
+      "Centralizar el estado de los servicios."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 30,
+    "enunciado": "¿Qué mejora se obtiene al automatizar el ciclo de vida de los contenedores? o",
+    "opciones": [
+      "Incremento en el tiempo de despliegue.",
+      "Reducción de la capacidad de recuperación.",
+      "Mejora en la experiencia del usuario del sistema.",
+      "Almacenamiento interno de configuraciones."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 31,
+    "enunciado": "¿Qué aspecto se mejora al seguir el principio de inmutabilidad en contenedores? o",
+    "opciones": [
+      "Persistencia de datos en contenedores individuales.",
+      "Consistencia entre entornos.",
+      "Capacidad de cambiar configuraciones internas.",
+      "Rendimiento del almacenamiento interno."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 32,
+    "enunciado": "¿Qué ocurre si un contenedor cumple con los requisitos de recursos establecidos? o",
+    "opciones": [
+      "Es más probable que sea migrado automáticamente.",
+      "Es menos probable que sea finalizado o migrado por falta de recursos.",
+      "Se desactiva automáticamente para liberar espacio.",
+      "Se elimina de los perfiles de recursos del sistema."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 33,
+    "enunciado": "¿Qué rol juega el perfil de recursos en un contenedor? o",
+    "opciones": [
+      "Garantizar la replicación interna de configuraciones.",
+      "Decidir programación, escalado y administración de capacidad.",
+      "Centralizar el almacenamiento de datos internos.",
+      "Reducir el número de transacciones inter-servicio."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 34,
+    "enunciado": "¿Qué tarea realizan las APIs de estado en contenedores? o",
+    "opciones": [
+      "Controlan la comunicación síncrona.",
+      "Informan sobre vitalidad y disponibilidad.",
+      "Reemplazan configuraciones externalizadas.",
+      "Almacenan métricas de rendimiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 35,
+    "enunciado": "¿Qué herramienta puede integrarse con contenedores para recopilación de métricas? o",
+    "opciones": [
+      "OpenTracing.",
+      "Kubernetes.",
+      "Docker Swarm.",
+      "OpenShift."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 36,
+    "enunciado": "¿Qué mecanismo usan los contenedores para gestionar eventos de la plataforma? o",
+    "opciones": [
+      "Kernel propio del contenedor.",
+      "APIs de configuración interna.",
+      "Lectura y respuesta a eventos de la plataforma.",
+      "Persistencia interna de datos."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 37,
+    "enunciado": "¿Qué ventaja se obtiene al externalizar el estado de los contenedores? o",
+    "opciones": [
+      "Almacenamiento local más eficiente.",
+      "Mayor resiliencia y redundancia.",
+      "Menor tiempo de respuesta en eventos.",
+      "Reducción de recursos distribuidos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 38,
+    "enunciado": "¿Qué método asegura consistencia al actualizar aplicaciones en contenedores? o",
+    "opciones": [
+      "Modificar contenedores en producción.",
+      "Crear una nueva imagen de contenedor para cada cambio.",
+      "Externalizar los cambios al kernel.",
+      "Almacenar configuraciones en datos internos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 39,
+    "enunciado": "¿Qué motiva el uso de contenedores efímeros en la nube? o",
+    "opciones": [
+      "Almacenamiento persistente más accesible.",
+      "Escalado flexible y reemplazo rápido.",
+      "Complejidad reducida en configuraciones.",
+      "Resiliencia limitada en plataformas externas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 5",
+    "qnum": 40,
+    "enunciado": "¿Qué asegura que los contenedores sean lo suficientemente autónomos? o",
+    "opciones": [
+      "La externalización de datos y configuraciones.",
+      "La integración directa con bases de datos internas.",
+      "La centralización de dependencias internas.",
+      "El uso exclusivo de bibliotecas externas."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 1,
+    "enunciado": "¿Qué objetivo tiene la gestión de la disponibilidad? o",
+    "opciones": [
+      "Garantizar la máxima seguridad del sistema.",
+      "Asegurarse de que los servicios cumplan con los requisitos de",
+      "Reducir al mínimo los tiempos de desarrollo.",
+      "Implementar redundancia en todos los sistemas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 2,
+    "enunciado": "¿Qué es un punto único de fallo (SPOF)? o",
+    "opciones": [
+      "Un componente redundante en un sistema.",
+      "Un elemento crítico cuya falla puede interrumpir todo el servicio.",
+      "Una estrategia para gestionar errores.",
+      "Un mecanismo de respaldo en sistemas distribuidos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 3,
+    "enunciado": "¿Qué parámetro mide la probabilidad de que un sistema falle? o",
+    "opciones": [
+      "Disponibilidad (A).",
+      "Fiabilidad (R).",
+      "MTBF.",
+      "Q(t)."
+    ],
+    "correcta": 3
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 4,
+    "enunciado": "¿Qué métrica representa el tiempo medio entre fallos? o",
+    "opciones": [
+      "MTTF.",
+      "MTBF.",
+      "MTTR.",
+      "R(t)."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 5,
+    "enunciado": "¿Qué fórmula define la disponibilidad (A)? o",
+    "opciones": [
+      "A=MTTFMTTF+MTTRA = \\frac{\\text{MTTF}}{\\text{MTTF} +",
+      "A=MTTRMTTF+MTTRA = \\frac{\\text{MTTR}}{\\text{MTTF} +",
+      "A=MTTF−MTTRA = \\text{MTTF} - \\ text{MTTR}A=MTTF−MTTR",
+      "A=MTTF×MTTRA = \\text{MTTF} \\times"
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 6,
+    "enunciado": "¿Qué término se refiere a la causa subyacente de un error? o",
+    "opciones": [
+      "Fault.",
+      "Failure.",
+      "Error.",
+      "Latencia."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 7,
+    "enunciado": "¿Qué tipo de error no afecta el estado externo del servicio? o",
+    "opciones": [
+      "Error efectivo.",
+      "Error latente.",
+      "Fault latente.",
+      "Fault activo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 8,
+    "enunciado": "¿Qué evento provoca la transición de Service Accomplishment (SA) a Service Interruption (SI)? o",
+    "opciones": [
+      "Restauración.",
+      "Reparación.",
+      "Failure.",
+      "Rollback."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 9,
+    "enunciado": "¿Qué técnica puede ocultar el error mediante redundancia? o",
+    "opciones": [
+      "Rollback.",
+      "Reconfiguración.",
+      "Compensation.",
+      "Diagnóstico."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 10,
+    "enunciado": "¿Qué técnica lleva al sistema a un estado estable posterior al error? o",
+    "opciones": [
+      "Rollback.",
+      "Rollforward.",
+      "Reinicialización.",
+      "Monitorización."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 11,
+    "enunciado": "¿Qué proceso elimina faltas activas o latentes para prevenir errores? o",
+    "opciones": [
+      "Fault Forecasting.",
+      "Fault Removal.",
+      "Fault Tolerance.",
+      "Diagnóstico."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 12,
+    "enunciado": "¿Qué técnica evita que las faltas se introduzcan en el sistema? o",
+    "opciones": [
+      "Fault Prevention.",
+      "Fault Removal.",
+      "Fault Forecasting.",
+      "Fault Tolerance."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 13,
+    "enunciado": "¿Qué mecanismo distribuye las tareas de componentes fallidos a otros que no han fallado? o",
+    "opciones": [
+      "Reconfiguración.",
+      "Diagnóstico.",
+      "Reinicialización.",
+      "Compensation."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 14,
+    "enunciado": "¿Qué tipo de mantenimiento elimina faltas latentes antes de que produzcan errores? o",
+    "opciones": [
+      "Correctivo.",
+      "Predictivo.",
+      "Preventivo.",
+      "Regresivo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 15,
+    "enunciado": "¿Qué técnica identifica y clasifica los modos de fallo en un sistema? o",
+    "opciones": [
+      "Reliability Block Diagram (RBD).",
+      "Diagnóstico.",
+      "Fault Tree Analysis (FTA).",
+      "Benchmarking."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 16,
+    "enunciado": "¿Qué tipo de pruebas se utilizan en entornos de preproducción? o",
+    "opciones": [
+      "Pruebas de integración.",
+      "Pruebas de disponibilidad y carga.",
+      "Pruebas de mantenimiento predictivo.",
+      "Pruebas correctivas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 17,
+    "enunciado": "¿Qué técnica utiliza carga simulada para evaluar sistemas nuevos? o",
+    "opciones": [
+      "Testing de disponibilidad.",
+      "Testing de capacidad.",
+      "Benchmarking con carga simulada.",
+      "Fault Forecasting."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 18,
+    "enunciado": "¿Qué técnica permite comparar el rendimiento de diferentes configuraciones de sistemas? o",
+    "opciones": [
+      "Rollforward.",
+      "Fault Removal.",
+      "Benchmarking.",
+      "Diagnóstico."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 19,
+    "enunciado": "¿Qué tipo de prueba analiza la respuesta de recursos humanos frente a fallos? o",
+    "opciones": [
+      "Testing de capacidad.",
+      "Testing de disponibilidad.",
+      "Pruebas funcionales.",
+      "Pruebas de contingencia."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 20,
+    "enunciado": "¿Qué método evalúa el tiempo medio de reparación (MTTR)? o",
+    "opciones": [
+      "Benchmarking.",
+      "Testing de capacidad.",
+      "Testing de disponibilidad.",
+      "Reliability Analysis."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 21,
+    "enunciado": "¿Qué atributo se refiere a la percepción de que el servicio es correcto? o",
+    "opciones": [
+      "Fiabilidad.",
+      "Disponibilidad.",
+      "Seguridad.",
+      "Confidencialidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 22,
+    "enunciado": "¿Qué atributo garantiza la continuidad del servicio correcto? o",
+    "opciones": [
+      "Fiabilidad.",
+      "Seguridad.",
+      "Mantenibilidad.",
+      "Integridad."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 23,
+    "enunciado": "¿Qué atributo asegura la ausencia de accesos indebidos al sistema? o",
+    "opciones": [
+      "Seguridad.",
+      "Confidencialidad.",
+      "Integridad.",
+      "Disponibilidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 24,
+    "enunciado": "¿Qué amenaza implica un error en la funcionalidad del sistema? o",
+    "opciones": [
+      "Fault.",
+      "Error.",
+      "Failure.",
+      "Parada."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 25,
+    "enunciado": "¿Qué recurso estimula la reducción del número de fallos en el sistema? o",
+    "opciones": [
+      "Fault Removal.",
+      "Fault Forecasting.",
+      "Fault Tolerance.",
+      "Fault Prevention."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 26,
+    "enunciado": "¿Qué técnica evita que los errores latentes provoquen fallos? o",
+    "opciones": [
+      "Fault Removal.",
+      "Fault Forecasting.",
+      "Fault Tolerance.",
+      "Fault Prevention."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 27,
+    "enunciado": "¿Qué técnica lleva al sistema a un estado estable anterior al error? o",
+    "opciones": [
+      "Rollforward.",
+      "Rollback.",
+      "Compensation.",
+      "Diagnóstico."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 28,
+    "enunciado": "¿Qué técnica asigna nuevas tareas a componentes redundantes? o",
+    "opciones": [
+      "Reconfiguración.",
+      "Reinicialización.",
+      "Diagnóstico.",
+      "Compensation."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 29,
+    "enunciado": "¿Qué técnica utiliza redundancia para ocultar errores al usuario? o",
+    "opciones": [
+      "Compensation.",
+      "Rollforward.",
+      "Reinicialización.",
+      "Diagnóstico."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 30,
+    "enunciado": "¿Qué técnica reinicia y actualiza las tablas del sistema tras un error? o",
+    "opciones": [
+      "Diagnóstico.",
+      "Reconfiguración.",
+      "Reinicialización.",
+      "Rollback."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 31,
+    "enunciado": "¿Qué modelo analiza gráficamente la fiabilidad de sistemas complejos? o",
+    "opciones": [
+      "Fault Tree Analysis (FTA).",
+      "Reliability Block Diagram (RBD).",
+      "Benchmarking.",
+      "Rollforward."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 32,
+    "enunciado": "¿Qué modelo evalúa las causas de fallos en un sistema mediante un enfoque jerárquico? o",
+    "opciones": [
+      "Fault Tree Analysis (FTA).",
+      "Reliability Block Diagram (RBD).",
+      "Diagnóstico preventivo.",
+      "Testing de disponibilidad."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 33,
+    "enunciado": "¿Qué tasa mide la cantidad de fallos por millón de horas? o",
+    "opciones": [
+      "MTBF.",
+      "FR (Failure Rate).",
+      "RR (Repair Rate).",
+      "Q(t)."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 34,
+    "enunciado": "¿Qué métrica mide la tasa de reparación de fallos en un sistema? o",
+    "opciones": [
+      "RR (Repair Rate).",
+      "MTBF.",
+      "MTTR.",
+      "R(t)."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 35,
+    "enunciado": "¿Qué técnica asegura la detección proactiva de fallos en un sistema? o",
+    "opciones": [
+      "Benchmarking.",
+      "Testing concurrente.",
+      "Monitorización proactiva.",
+      "Fault Prevention."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 36,
+    "enunciado": "¿Qué pruebas evalúan el impacto de cambios en configuraciones existentes? o",
+    "opciones": [
+      "Testing de carga simulada.",
+      "Testing de carga real.",
+      "Benchmarking.",
+      "Pruebas de contingencia."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 37,
+    "enunciado": "¿Qué pasos implica el benchmarking con carga simulada? o",
+    "opciones": [
+      "Generar datos de entrada reales y medir el rendimiento.",
+      "Inyectar carga simulada, analizar resultados y establecer métricas.",
+      "Evaluar componentes fallidos y aislar errores.",
+      "Implementar mecanismos de redundancia."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 38,
+    "enunciado": "¿Qué pruebas determinan la probabilidad de futuros niveles de disponibilidad? o",
+    "opciones": [
+      "Tests funcionales de replicación.",
+      "Tests de disponibilidad con análisis probabilísticos.",
+      "Benchmarking concurrente.",
+      "Pruebas de mantenimiento correctivo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 39,
+    "enunciado": "¿Qué herramienta de prueba se enfoca en medir el rendimiento bajo condiciones controladas? o",
+    "opciones": [
+      "Fault Removal.",
+      "Reliability Block Diagram (RBD).",
+      "Benchmarking.",
+      "Testing de capacidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 6",
+    "qnum": 40,
+    "enunciado": "¿Qué objetivo principal tiene el diseño de sistemas con redundancia? o",
+    "opciones": [
+      "Reducir el número de componentes en el sistema.",
+      "Evitar puntos únicos de fallo (SPOF).",
+      "Aumentar la complejidad del sistema.",
+      "Reducir la necesidad de pruebas funcionales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 1,
+    "enunciado": "¿Qué es el mantenimiento según el estándar EN 13306 (2001)? o",
+    "opciones": [
+      "Gestión técnica de recursos para aumentar la producción.",
+      "Acciones destinadas a conservar o devolver un equipo a su estado",
+      "Implementación de redundancia en sistemas críticos.",
+      "Estrategia para reducir los costes operativos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 2,
+    "enunciado": "¿Qué área NO está directamente relacionada con el mantenimiento? o",
+    "opciones": [
+      "Ingeniería.",
+      "Logística.",
+      "Recursos Humanos.",
+      "Finanzas internacionales."
+    ],
+    "correcta": 3
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 3,
+    "enunciado": "¿Qué característica define el mantenimiento correctivo? o",
+    "opciones": [
+      "Acciones para evitar la aparición de fallos.",
+      "Acciones inmediatas o diferidas para reparar incidentes.",
+      "Monitorización de sistemas en tiempo real.",
+      "Predicción de fallos futuros."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 4,
+    "enunciado": "¿Qué tipo de mantenimiento se enfoca en la mejora continua del rendimiento? o",
+    "opciones": [
+      "Correctivo.",
+      "Proactivo.",
+      "Perfectivo.",
+      "Predictivo."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 5,
+    "enunciado": "¿Qué técnica de mantenimiento analiza el comportamiento de las incidencias? o",
+    "opciones": [
+      "Preventivo.",
+      "Predictivo.",
+      "Correctivo.",
+      "Proactivo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 6,
+    "enunciado": "¿Qué término describe los gastos asociados a la adquisición de activos físicos? o",
+    "opciones": [
+      "OPEX.",
+      "CAPEX.",
+      "Costes operativos.",
+      "Costes marginales."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 7,
+    "enunciado": "¿Qué métrica calcula el tiempo promedio para realizar una reparación? o",
+    "opciones": [
+      "MTTF.",
+      "MTTR.",
+      "DMT.",
+      "MDMT."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 8,
+    "enunciado": "¿Qué describe el modelo de reemplazo basado en la edad? o",
+    "opciones": [
+      "Se realiza un reemplazo tras un fallo crítico.",
+      "El reemplazo se realiza después de un intervalo constante de tiempo.",
+      "El reemplazo ocurre al alcanzar un tiempo específico de",
+      "Se realizan reparaciones parciales antes del reemplazo."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 9,
+    "enunciado": "¿Qué técnica de mantenimiento asume que los elementos de sustitución no son nuevos? o",
+    "opciones": [
+      "Reemplazo total.",
+      "Reparación mínima.",
+      "Mantenimiento imperfecto.",
+      "Reemplazo parcial."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 10,
+    "enunciado": "¿Dónde se almacenan comúnmente los logs del sistema en Linux? Sabemos que compras online cuando estás en clase y desde ING queremos decirte algo: te lo mereces",
+    "opciones": [
+      "/etc/logs",
+      "/usr/logs",
+      "/var/log",
+      "/opt/logs"
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 11,
+    "enunciado": "¿Qué demonio se utiliza en Linux para la gestión de logs? o",
+    "opciones": [
+      "syslogd o rsyslogd.",
+      "logrotate.",
+      "journald.",
+      "confd."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 12,
+    "enunciado": "¿Qué tipo de backup incluye solo los cambios realizados desde el último backup completo? o",
+    "opciones": [
+      "Backup incremental.",
+      "Backup diferencial.",
+      "Backup total.",
+      "Backup continuo."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 13,
+    "enunciado": "¿Qué técnica asegura la redundancia y seguridad en el almacenamiento de backups? o",
+    "opciones": [
+      "Uso de redes públicas.",
+      "Sistemas dedicados de almacenamiento.",
+      "Almacenamiento en dispositivos móviles.",
+      "Cifrado de datos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 14,
+    "enunciado": "¿Qué objetivo tienen las actualizaciones de software? o",
+    "opciones": [
+      "Implementar cambios sin planificación previa.",
+      "Mejorar funcionalidades y corregir bugs.",
+      "Sustituir hardware antiguo.",
+      "Aumentar el tiempo de mantenimiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 15,
+    "enunciado": "¿Qué información clave se encuentra en la CMDB para procedimientos de arranque y parada? o",
+    "opciones": [
+      "La ubicación física del sistema.",
+      "El orden de dependencia entre componentes.",
+      "El historial de fallos registrados.",
+      "El número de usuarios conectados."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 16,
+    "enunciado": "¿Qué capa se inicia primero en un procedimiento de arranque? o",
+    "opciones": [
+      "Capa de negocio.",
+      "Capa de persistencia.",
+      "Capa de presentación.",
+      "Capa de comunicación."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 17,
+    "enunciado": "¿Qué herramienta gráfica muestra la capacidad y disponibilidad de sistemas? o",
+    "opciones": [
+      "Cuadros de mando.",
+      "Logs distribuidos.",
+      "Bases de conocimiento.",
+      "CMDB."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 18,
+    "enunciado": "¿Qué criterio es esencial al implementar un cuadro de mando? o",
+    "opciones": [
+      "Elegir servicios a representar y su intervalo de actualización.",
+      "Seleccionar formatos de logs compatibles.",
+      "Establecer políticas de retención.",
+      "Realizar backups incrementales."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 19,
+    "enunciado": "¿Qué problema es común en la gestión de logs? o",
+    "opciones": [
+      "Uso de formatos estándar y homogéneos.",
+      "Manejo de grandes volúmenes de información.",
+      "Falta de herramientas de análisis de datos.",
+      "Almacenamiento en sistemas distribuidos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 20,
+    "enunciado": "¿Qué herramienta en Linux permite establecer la periodicidad del rotado de logs? o",
+    "opciones": [
+      "cron.",
+      "logrotate.",
+      "syslogd.conf.",
+      "journald."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 21,
+    "enunciado": "¿Qué tarea realiza el diagnóstico en el proceso de mantenimiento? o",
+    "opciones": [
+      "Reinicia componentes fallidos.",
+      "Identifica y registra las causas de un error.",
+      "Implementa estrategias de rollback.",
+      "Garantiza la redundancia de los sistemas."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 22,
+    "enunciado": "¿Qué tipo de información incluye un backup diferencial? o",
+    "opciones": [
+      "Todos los datos del sistema.",
+      "Cambios desde el último backup incremental.",
+      "Cambios desde el último backup completo.",
+      "Solo datos críticos seleccionados."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 23,
+    "enunciado": "¿Qué técnica garantiza la validez de una copia de seguridad? o",
+    "opciones": [
+      "Secunia Advisory.",
+      "Red Hat Updates Advisory.",
+      "Hispasec @unaaldia.",
+      "BugTraq."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 26,
+    "enunciado": "¿Qué procedimiento considera las dependencias entre componentes en un sistema? o",
+    "opciones": [
+      "Gestión de logs.",
+      "Arranque y parada de sistemas.",
+      "Configuración de backups.",
+      "Diagnóstico de errores."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 28,
+    "enunciado": "¿Qué métrica mide la capacidad de completar una tarea de mantenimiento antes de un tiempo ttt?",
+    "opciones": [
+      "MTTR.",
+      "M(t).",
+      "DMT.",
+      "λ."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 29,
+    "enunciado": "¿Qué factor NO influye en la mantenibilidad de un sistema? o",
+    "opciones": [
+      "Disponibilidad de herramientas.",
+      "Complejidad de la infraestructura.",
+      "Tamaño de la empresa.",
+      "Programa de mantenimiento preventivo."
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 30,
+    "enunciado": "¿Qué representa el valor λ \\lambdaλ en mantenibilidad? o",
+    "opciones": [
+      "Frecuencia de la tarea de mantenimiento.",
+      "Duración media de la reparación.",
+      "Tasa de fallos en el sistema.",
+      "Tiempo promedio para detectar errores."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 31,
+    "enunciado": "¿Qué modelo de mantenimiento se realiza en intervalos constantes de tiempo? o",
+    "opciones": [
+      "Reemplazo parcial.",
+      "Reemplazo preventivo constante (CIR).",
+      "Reemplazo basado en la edad.",
+      "Reemplazo mínimo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 32,
+    "enunciado": "¿Qué acción define el mantenimiento imperfecto (IPM)? o",
+    "opciones": [
+      "Reemplazo total de los componentes fallidos.",
+      "Restauración a un estado intermedio entre nuevo y usado.",
+      "Reparaciones parciales con mínimo impacto en costes.",
+      "Diagnóstico continuo sin restauración."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 33,
+    "enunciado": "¿Qué método se utiliza tras realizar N−1N -1N−1 IPMs? o",
+    "opciones": [
+      "Reemplazo correctivo.",
+      "Reemplazo preventivo.",
+      "Reemplazo parcial.",
+      "Diagnóstico predictivo."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 34,
+    "enunciado": "¿Qué criterio debe considerarse al diseñar un cuadro de mando? o",
+    "opciones": [
+      "Disponibilidad del hardware subyacente.",
+      "Agrupación lógica de la información.",
+      "Selección de logs más críticos.",
+      "Cantidad de usuarios conectados."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 35,
+    "enunciado": "¿Qué tarea es propia de los cuadros de mando? o",
+    "opciones": [
+      "Ejecutar parches de seguridad.",
+      "Mostrar información sobre la disponibilidad y capacidad del sistema.",
+      "Realizar pruebas de mantenimiento predictivo.",
+      "Garantizar la redundancia en logs distribuidos."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 36,
+    "enunciado": "¿Qué fuente ofrece documentación técnica oficial de Oracle? o",
+    "opciones": [
+      "Metalink.",
+      "TechNet.",
+      "Knowledge Base.",
+      "BugTraq."
+    ],
+    "correcta": 0
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 37,
+    "enunciado": "¿Qué tarea es clave en el troubleshooting de sistemas distribuidos?",
+    "opciones": [
+      "Diagnóstico predictivo.",
+      "Análisis de logs.",
+      "Reconfiguración en tiempo real.",
+      "Configuración de arranque y parada."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 38,
+    "enunciado": "¿Qué soporte ofrece Red Hat a sus clientes? o",
+    "opciones": [
+      "Soporte exclusivamente telefónico.",
+      "Base de conocimiento y canales de soporte online.",
+      "Resolución automática de fallos.",
+      "Consultoría de hardware gratuita."
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Tema 7",
+    "qnum": 39,
+    "enunciado": "¿Qué beneficio tienen los boletines de seguridad de fabricantes? o",
+    "opciones": [
+      "Eliminan la necesidad de actualizaciones regulares.",
+      "Ayudan a priorizar actualizaciones críticas.",
+      "Permiten evitar la redundancia de componentes.",
+      "Sustituyen los análisis de logs manuales."
+    ],
+    "correcta": 1
+  }
+]
